@@ -136,7 +136,7 @@ const options = {
 ```
 
 #📊 Sample Output
-```
+
 🚀 Starting batch conversion process...
 📁 Found 15 office documents in /mnt/d/documents
 🔄 12 files need conversion (3 already converted)
@@ -169,7 +169,7 @@ const options = {
 ║ Total Duration:        45.67 seconds                         ║
 ║ Average per File:       3.81 seconds                         ║
 ╚════════════════════════════════════════════════════════════════╝
-```
+
 
 #🛠️ Troubleshooting
 ##Issue: "Cannot find module '@nutrient-sdk/node'"
@@ -183,6 +183,7 @@ wsl
 cd /mnt/d/your-project
 node converter.mjs
 ```
+
 ###Issue: Permission denied
 ```
 sudo chown -R $USER:$USER /mnt/d/your-project
@@ -196,6 +197,7 @@ const options = {
   timeout: 300000    // 5 minutes timeout
 };
 ```
+
 ##📝 Package.json Scripts
 ```
 {
