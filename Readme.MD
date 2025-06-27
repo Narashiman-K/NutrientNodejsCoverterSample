@@ -63,8 +63,8 @@ npm --version
 #🚀 Installation
 ```
 # Clone the repository
-git clone https://github.com/your-username/nutrient-nodejs-converter.git
-cd nutrient-nodejs-converter
+git clone https://github.com/Narashiman-K/NutrientNodejsCoverterSample.git
+cd NutrientNodejsCoverterSample
 
 # Install dependencies
 npm install
