@@ -209,7 +209,7 @@ const options = {
 }
 ```
 
-#🐛 Known Issues & Workarounds
+#🐛 Issues & Workarounds
 Windows Compatibility
 Issue: ES module path resolution fails on Windows
 Workaround: Use WSL or Linux environment
