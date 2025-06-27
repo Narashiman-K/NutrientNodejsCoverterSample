@@ -9,7 +9,6 @@ This project provides a robust document conversion system that overcomes Windows
 ## 🚨 Windows Path Issue & Solution
 
 ### The Problem
-The Nutrient Node.js SDK has a known compatibility issue on Windows systems where it throws:
 Error [ERR_UNSUPPORTED_ESM_URL_SCHEME]: Only URLs with a scheme in: file, data, and node are supported by the default ESM loader. On Windows, absolute paths must be valid file:// URLs. Received protocol 'd:'
 This occurs because:
 - The SDK internally uses ES module loading mechanisms
