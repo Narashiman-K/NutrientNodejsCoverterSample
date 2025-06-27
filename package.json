@@ -1,0 +1,16 @@
+{
+  "name": "nutrient-pdf-converter",
+  "version": "1.0.0",
+  "description": "Batch convert Office documents to PDF using Nutrient SDK",
+  "type": "module",
+  "scripts": {
+    "convert": "node converter.mjs",
+    "batch": "node batch-converter.mjs",
+    "batch-run": "node run-batch.mjs",
+    "batch-advanced": "node advanced-batch.mjs"
+  },
+  "dependencies": {
+    "@nutrient-sdk/node": "^1.1.0",
+    "dotenv": "^16.6.0"
+  }
+}
